@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A collection of extension methods to make Json things a bit easier.</Description>
+    <Authors>TheGreatCO</Authors>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <DefineConstants>$(DefineConstants);NETDX</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>portable</DebugType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>SharpExtensions.Json</AssemblyName>
+    <PackageId>SharpExtensions.Json</PackageId>
+    <PackageProjectUrl>https://github.com/thegreatco/SharpExtensions.Json</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/thegreatco/SharpExtensions.Json/blob/master/LICENSE.TXT</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/thegreatco/SharpExtensions.Json</RepositoryUrl>
+    <Version Condition=" '$(FILE_VERSION)' == '' ">1.0.0.0</Version>
+    <Version Condition=" '$(FILE_VERSION)' != '' ">$(FILE_VERSION)</Version>
+    <AssemblyVersion Condition=" '$(FILE_VERSION)' == '' ">1.0.0.0</AssemblyVersion>
+    <AssemblyVersion Condition=" '$(FILE_VERSION)' != '' ">$(FILE_VERSION)</AssemblyVersion>
+    <FileVersion Condition=" '$(FILE_VERSION)' == '' ">1.0.0.0</FileVersion>
+    <FileVersion Condition=" '$(FILE_VERSION)' != '' ">$(FILE_VERSION)</FileVersion>
+    <RootNamespace>SharpExtensions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
