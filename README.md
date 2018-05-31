@@ -11,5 +11,5 @@ There are four NuGet Packages available:
   * [SharpExtensions](https://www.nuget.org/packages/SharpExtensions.Assembly/)
   * [SharpExtensions Json](https://www.nuget.org/packages/SharpExtensions.Json.Assembly/)
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/thegreatco/sharpextensions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![CircleCI](https://circleci.com/gh/thegreatco/SharpExtensions.Json/tree/master.svg?style=svg)](https://circleci.com/gh/thegreatco/SharpExtensions.Json/tree/master)
 
